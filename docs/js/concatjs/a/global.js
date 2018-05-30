@@ -275,12 +275,12 @@ function AllFunc() {
 				},useObj);
 				}else{
 					//判断是否是否开发环境
-					if(location.href.indexOf(testprot)<0){
-						//不在开发环境且没有url登录字段，直接取登录信息
-						if(that.LoginInfo.userId){
-							ID.userId=that.LoginInfo.userId;
-						}else{window.location.href='/';}
-					}
+					// if(location.href.indexOf(testprot)<0){
+					// 	//不在开发环境且没有url登录字段，直接取登录信息
+					// 	if(that.LoginInfo.userId){
+					// 		ID.userId=that.LoginInfo.userId;
+					// 	}else{window.location.href='/';}
+					// }
 					fuc();
 					}
 			},
