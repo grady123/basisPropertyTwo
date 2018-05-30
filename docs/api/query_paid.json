@@ -1,0 +1,156 @@
+{
+    "isSuccess": true,
+    "status": 0,
+    "message": null,
+    "data": {
+        "orgId": 1179,
+        "orgName": "江苏新城物业",
+        "level": "1",
+        "saturationByYear": 65635.232078,
+        "totalPaid": 34902.958429,
+        "totalPaidPercent": 53.17716922,
+        "prePaidNextYears": 613.6286,
+        "list": [
+            {
+                "orgId": 2080,
+                "orgName": "湖南区域公司",
+                "level": "2",
+                "saturationByYear": 1243.243524,
+                "totalPaid": 332.718361,
+                "totalPaidPercent": 26.76212299,
+                "prePaidNextYears": 4.007,
+                "list": []
+            },
+            {
+                "orgId": 2085,
+                "orgName": "华南区域公司",
+                "level": "2",
+                "saturationByYear": 1026.41208,
+                "totalPaid": 316.49631,
+                "totalPaidPercent": 30.83520899,
+                "prePaidNextYears": 10.7844,
+                "list": []
+            },
+            {
+                "orgId": 2074,
+                "orgName": "江西区域公司",
+                "level": "2",
+                "saturationByYear": 2357.63954,
+                "totalPaid": 881.183299,
+                "totalPaidPercent": 37.37565832,
+                "prePaidNextYears": 73.9451,
+                "list": []
+            },
+            {
+                "orgId": 2089,
+                "orgName": "总部区域",
+                "level": "2",
+                "saturationByYear": 1891.319712,
+                "totalPaid": 796.22026,
+                "totalPaidPercent": 42.09866026,
+                "prePaidNextYears": 0,
+                "list": []
+            },
+            {
+                "orgId": 2075,
+                "orgName": "苏州区域公司",
+                "level": "2",
+                "saturationByYear": 7781.588448,
+                "totalPaid": 3522.607275,
+                "totalPaidPercent": 45.26848597,
+                "prePaidNextYears": 6.7504,
+                "list": []
+            },
+            {
+                "orgId": 2081,
+                "orgName": "华西区域公司",
+                "level": "2",
+                "saturationByYear": 1031.79348,
+                "totalPaid": 501.429128,
+                "totalPaidPercent": 48.59781901,
+                "prePaidNextYears": 5.2525,
+                "list": []
+            },
+            {
+                "orgId": 2073,
+                "orgName": "苏南区域公司",
+                "level": "2",
+                "saturationByYear": 23793.774958,
+                "totalPaid": 12574.400095,
+                "totalPaidPercent": 52.84743643,
+                "prePaidNextYears": 92.0107,
+                "list": []
+            },
+            {
+                "orgId": 2077,
+                "orgName": "宁皖区域公司",
+                "level": "2",
+                "saturationByYear": 8158.85158,
+                "totalPaid": 4335.560961,
+                "totalPaidPercent": 53.13935323,
+                "prePaidNextYears": 141.4887,
+                "list": []
+            },
+            {
+                "orgId": 2078,
+                "orgName": "浙江区域公司",
+                "level": "2",
+                "saturationByYear": 5090.08628,
+                "totalPaid": 2916.832501,
+                "totalPaidPercent": 57.30418583,
+                "prePaidNextYears": 98.5539,
+                "list": []
+            },
+            {
+                "orgId": 2079,
+                "orgName": "湖北区域公司",
+                "level": "2",
+                "saturationByYear": 1507.709256,
+                "totalPaid": 919.399,
+                "totalPaidPercent": 60.97986043,
+                "prePaidNextYears": 2.1918,
+                "list": []
+            },
+            {
+                "orgId": 2076,
+                "orgName": "上海区域公司",
+                "level": "2",
+                "saturationByYear": 9530.62862,
+                "totalPaid": 6176.040139,
+                "totalPaidPercent": 64.80202288,
+                "prePaidNextYears": 149.6128,
+                "list": []
+            },
+            {
+                "orgId": 2082,
+                "orgName": "华北区域公司",
+                "level": "2",
+                "saturationByYear": 1122.35916,
+                "totalPaid": 751.0155,
+                "totalPaidPercent": 66.91400817,
+                "prePaidNextYears": 25.9958,
+                "list": []
+            },
+            {
+                "orgId": 2083,
+                "orgName": "青岛区域公司",
+                "level": "2",
+                "saturationByYear": 456.1236,
+                "totalPaid": 329.84788,
+                "totalPaidPercent": 72.31546011,
+                "prePaidNextYears": 0.1794,
+                "list": []
+            },
+            {
+                "orgId": 2084,
+                "orgName": "济南区域公司",
+                "level": "2",
+                "saturationByYear": 643.70184,
+                "totalPaid": 549.20772,
+                "totalPaidPercent": 85.32020353,
+                "prePaidNextYears": 2.8561,
+                "list": []
+            }
+        ]
+    }
+}

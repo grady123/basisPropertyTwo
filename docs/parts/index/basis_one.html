@@ -1,0 +1,103 @@
+<div class="fixed-warp unit_two basis" id="basisone">
+    <!--头-->
+    <div class="fixed-top">
+        <div class="fixed-top">
+            <div class="mobile-top-nag">
+                <div class="nag-button">
+                    <a href="/index"><i class="iconfont icon-fanhui go1"></i></a>
+                    <a href="/index"><i class="iconfont icon-guanbi"></i></a>
+                </div>
+                收缴率
+            </div>
+        </div>
+    </div>
+    <div class="fixed">
+        <!-- 表格2  -->
+        <div class="energy-head ">
+            <div class="unit fixation ">
+                <div class="bc-29b375 pt15 pb15 pr20">
+                    <div class="clearfix">
+                        <ul class="block">
+                            <li class="fr"><span class="light fs28 datename">{{paidDate}}</span></li>
+                            <li class="fr"><span class="light fs28 mr10 datename max_with" @click="selChange" v-text="name"></span><i class=" iconfont icon-iconfontunfold light mr80"></i></li>
+                            <li class="fl ml10"><span class="light fs28 mr5 datename max_with" @click="projectSelChange" v-text="itemName"></span><i class=" iconfont icon-iconfontunfold light "></i></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix midle mt50 mb30">
+                        <ul>
+                            <li>
+                                <ul class="clearfix">
+                                    <li class="light big_number" style="text-align: center;"><span>&nbsp&nbsp&nbsp&nbsp&nbsp{{front}}</span>
+                                        <div class="percentage_G">
+                                            <div class="act_g">&nbsp&nbsp%</div>
+                                            <div class="act_g2">{{behind}}</div>
+                                        </div>
+                                        <span class="fs26">&nbsp&nbsp累计收缴率(%)</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix F76E60  two-tabs">
+                    <ul class="W100 clearfix midle-tabs bt3BBA80">
+                        <li class="fl W-33 text-center pt10">
+                            <p class="fs32 light text-center top-p mb0">{{saturationByYear|money2(2)}}</p>
+                            <p class="fs24 light text-center top-b mb0">年饱和（万元）</p>
+                        </li>
+                        <li class="fl W-33 text-center pt10">
+                            <p class="fs32 light text-center top-p mb0">{{totalPaid|money2(2)}}</p>
+                            <p class="fs24 light text-center top-b mb0">累计实收（万元）</p>
+                        </li>
+                        <li class="fl W-33 text-center pt10 b0">
+                            <p class="fs32 light text-center top-p mb0">{{prePaidNextYears|money2(2)}}</p>
+                            <p class="fs24 light text-center top-b mb0">预收以后（万元）</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="unit time-dimension">
+                <div class="identifying_two pt40 ">
+                    <div><span class="colour1"></span>年饱和</div>
+                    <div><span class="colour2"></span>实收</div>
+                    <!--<div ><span class="colour3"></span>减免</div>-->
+                    <div><span class="colour4"></span>累计收缴率</div>
+                </div>
+                <div>
+                    <div id="unitNhChartsone1" class="pay_nhCharts-box">
+                        <div class="charts1" id="unitNhChartsone"></div>
+                    </div>
+
+                    <!-- 列表-->
+                    <div>
+                        <div class="clearfix  pt30  pb20 mb0 light-bg text-center bbDDDEE3">
+                            <div class="fl rela W-25  b0 c-000 fs26">组织</div>
+                            <div class="fl rela W-20 b0 c-000 fs26">年饱和</div>
+                            <div class="fl rela W-15  b0 c-000 fs26">累计实收</div>
+                            <div class="fl rela W-25  b0 c-000 fs26 c-3395FF" @click="order==1?order=2:order=1">累计收缴率<i class="iconfont unit pad icon-jiantou  fs20 iblock " :class="{'rotate':order==1}" ></i></div>
+                            <div class="fl rela W-15  b0 c-000 fs26">预收以后</div>
+                        </div>
+                        <ul>
+                            <li class=" h70 lh70 text-center bt0 bl0 br0 bbDDDEE3 m0 p-r-1" v-for="(item,index) in listdata" :key="index" v-if="index < bottomBtnData.len">
+
+                                <div class="fl lh70 W-25  fs26 c-3395FF unit-font text-center" @click.stop="getlist(item.orgId,item.orgName,item.level)">{{item.orgName}}</div>
+                                <div class="fl lh70 W-20  fs26">{{item.saturationByYear|money2(2)}}</div>
+                                <div class="fl lh70 W-20  fs26">{{item.totalPaid|money2(2)}}</div>
+                                <div class="fl lh70 W-20 text-right fs26">{{item.totalPaidPercent|money2(2)}}%</div>
+                                <div class="fl lh70 W-15 text-right fs26">{{item.prePaidNextYears|money2(2)}}&nbsp</div>
+                            </li>
+                            <!--<div  class="unit bottom-btn w-100 c-3395FF" v-if="!(listdata.length>=bottomBtnData.len)"></div>-->
+                            <!--点击展开与收缩列表开始  v-if="unitList.list.length>bottomBtnData.len"-->
+                            <div class="unit bottom-btn w-100 c-3395FF" @click.stop="accordion()" v-if="listdata.length>=bottomBtnData.len">
+                                <span v-text="bottomBtnData.text" class="fs24"></span>
+                                <span class="iconfont fs18 icon-zhankaiquanbu unit" :class="{'rotate':!bottomBtnData.bSign}"></span>
+                            </div>
+                            <!--点击展开与收缩列表结束-->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

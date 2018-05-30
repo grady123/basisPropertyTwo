@@ -1,0 +1,375 @@
+/*charts1*/
+.unit_chats.charts {
+    width: 100%;
+    height: 85%;
+}
+
+.unit_chats.charts1 canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.unit_chats.charts2 canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.unit_chats.charts3 canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/*echarts*/
+.pay_nhCharts-box {
+    width: 7.5rem;
+    height: 5rem;
+    float: left;
+    /*padding:0  0.25rem;*/
+    /*overflow:auto;*/
+}
+
+.charts1 {
+    width: 100%;
+    height: 100%;
+}
+
+.charts1 canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/*左右滑动*/
+.swiper-container {
+    width: 100%;
+}
+
+.identifying {
+    font-size: 0.2rem;
+    color: #666666;
+    padding: 0 0.7rem 0;
+    display: block;
+}
+
+.identifying div {
+
+    display: inline-block;
+    width: 49%;
+    padding: 0.25rem 0.2rem 0;
+    box-sizing: border-box;
+}
+
+.identifying span {
+    margin-right: 0.15rem;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.identifying .blue {
+    width: 0.21rem;
+    height: 0.12rem;
+    /*background: #6DC56E;*/
+    display: inline-block;
+
+}
+
+.identifying .green {
+    width: 0.21rem;
+    height: 0.12rem;
+    /*background: #78B9FF;*/
+    display: inline-block;
+}
+
+.compare .active {
+    color: #F81E3B !important;
+}
+
+.iden.identifying_two {
+    padding: 0 1.5rem 0;
+}
+
+.identifying_two {
+    padding: 0 1.2rem 0;
+}
+
+.identifying_two div {
+    font-size: 0.2rem;
+    color: #666666;
+    margin: 0 0.2rem 0;
+    display: inline-block;
+}
+
+.unit_two .pt40 {
+    padding-top: 0.3rem;
+}
+
+.unit .W-10 {
+    width: 10%;
+}
+
+.unit .W-30 {
+    width: 30%;
+}
+
+.unit .W-25 {
+    width: 25%;
+}
+
+.unit .W-23 {
+    width: 23%;
+}
+
+.unit .W-15 {
+    width: 15%;
+}
+
+.unit .W-10 {
+    width: 10%;
+}
+
+.identifying_two span {
+    display: inline-block;
+    margin-right: 0.1rem;
+    width: 0.25rem;
+    height: 0.16rem;
+    border-radius: 2px;
+    background: #78B9FF;
+}
+
+.identifying_two .colour1 {
+    background-color: #D8EFFF;
+}
+
+.identifying_two .colour2 {
+    background-color: #6DC56E;
+}
+
+.identifying_two .colour3 {
+    background-color: #138815;
+}
+
+.identifying_two .colour4 {
+    background-color: #FF723A;
+}
+
+.max_with {
+    max-width: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+
+.unit.bottom-btn {
+    height: 1.2rem;
+    text-align: center;
+    padding-top: 0.04rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.unit.bottom-btn span {
+    display: block;
+    margin-top: 0.16rem;
+}
+
+.unit.rotate {
+    transform: rotate(180deg);
+}
+
+.unit.fixation {
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 99;
+}
+
+.unit.time-dimension {
+    /*padding-top: 4.3rem!important;*/
+}
+
+.unit.W-15 {
+
+    width: 15%;
+
+}
+
+.unit.W-25 {
+
+    width: 25%;
+
+}
+
+.unit_two .rela {
+    position: relative;
+}
+
+.unit.pad {
+    position: absolute;
+}
+
+.show {
+    display: block !important;
+}
+
+.top-nav {
+    position: fixed;
+}
+
+.top-nav .button {
+    width: 33%;
+}
+
+.identifying_three {
+    font-size: 0.2rem;
+    padding-top: 0.2rem;
+    color: #666666;
+    display: flex;
+}
+
+.identifying_three div {
+    line-height: 0.8rem;
+    display: inline-block;
+    margin: auto;
+    flex: 1;
+    text-align: center;
+}
+
+.identifying_three span {
+    margin-right: 0.15rem;
+    vertical-align: middle;
+}
+
+.identifying_three .blue {
+    width: 0.21rem;
+    height: 0.12rem;
+    background: #6DC56E;
+    display: inline-block;
+}
+
+.identifying_three .green {
+    width: 0.21rem;
+    height: 0.12rem;
+    background: #78B9FF;
+    display: inline-block;
+}
+
+.unit_four .top-nav {
+    position: fixed;
+    top: 0.85rem;
+    z-index: 99 !important;
+}
+
+.unit_four .energy-head {
+    padding-top: 0.7rem;
+    z-index: 99;
+}
+
+.unit_four.unit.time-dimension {
+    top: 1.6rem;
+    width: 100%;
+    height: 7.4rem;
+
+    z-index: 1;
+}
+
+.unitOne .unit_four.unit.time-dimension {
+    top: 2rem;
+    width: 100%;
+    height: 7.4rem;
+    z-index: 1;
+}
+
+.unit_four .h10 {
+    height: 1rem;
+}
+
+.unitOne .energy-analy {
+    overflow: auto;
+    z-index: 99;
+}
+
+.unitOne .rotate {
+    transform: rotate(180deg);
+    margin-right: 0.1rem;
+}
+
+.unitOne .h12 {
+    height: .24rem;
+}
+
+.unit_two .h15 {
+    height: 0.7rem;
+}
+
+.unit_three .h35 {
+    height: 0.35rem;
+}
+
+.unit_four .h22 {
+    height: 0.22rem;
+}
+
+/*字体超出*/
+.unit-font {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bot-nav .button2 {
+    width: 50% !important;
+}
+
+.bot-nav .button3 {
+    width: 0 !important;
+}
+
+.act {
+    color: #F81E3B !important;
+}
+
+.basis .icon-iconfontunfold {
+    line-height: 0.4rem;
+}
+
+.big_number {
+    font-size: 1.4rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.big_number2 {
+    font-size: 1.0rem !important;
+    height: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.percentage {
+    font-size: 0.44rem;
+    height: 0.64rem;
+    line-height: 0.76rem;
+}
+
+.decimal {
+    font-size: 0.88rem;
+    height: 0.84rem;
+    line-height: 0.84rem;
+}
+
+.percentage_G {
+
+    display: inline-block;
+    width: 0.7rem;
+    height: 100%;
+}
+
+.percentage_G .act_g {
+    font-size: 0.4rem;
+}
+
+.percentage_G .act_g2 {
+    font-size: 0.7rem;
+}
+
+.p-r-1 {
+    padding-right: 0.1rem;
+}
