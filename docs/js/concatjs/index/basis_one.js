@@ -42,7 +42,7 @@
         var ms = {
             //查找初始组织数据
             tissue: function () {
-                T.MyGet('/api/org_tree_data_query_auth.json', function (res) {
+                T.MyGet('api/org_tree_data_query_auth.json', function (res) {
                     if (res.status == 0) {
                         this.name = res.data[0].orgUnitName;
                         this.orgId = res.data[0].id;
@@ -55,7 +55,7 @@
             },
             //查找初始基础参数数据
             tissue1: function () {
-                T.MyGet('../../api/get_item.json', function (res) {
+                T.MyGet('api/get_item.json', function (res) {
                     if (res.status == 0) {
                         this.itemName = res.data.list[0].itemName;
                         this.itemId = res.data.list[0].itemId;
@@ -293,7 +293,7 @@
             },
             //获取主页数据
             getData: function () {
-                T.MyGet("../../api/query_paid.json", function (res) {
+                T.MyGet("api/query_paid.json", function (res) {
                     if (res.status == 0) {
                         var data = res.data;
                         //百分比

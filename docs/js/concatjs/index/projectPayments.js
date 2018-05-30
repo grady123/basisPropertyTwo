@@ -6,7 +6,7 @@
     T.AllData.selectUnit2 = function(Id, nowName, callBack) {
         all_data.userId = Id;
         all_data.nowProject = nowName;
-        T.MyGet('../../api/get_item.json', getData);
+        T.MyGet('api/get_item.json', getData);
 
         function getData(d) {
             $.each(d.data.list,function (i,v) {
