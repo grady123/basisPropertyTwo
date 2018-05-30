@@ -42,7 +42,7 @@
         var ms = {
             //查找初始组织数据
             tissue: function () {
-                T.MyGet('../../api/org_tree_data_query_auth.json', function (res) {
+                T.MyGet('/api/org_tree_data_query_auth.json', function (res) {
                     if (res.status == 0) {
                         this.name = res.data[0].orgUnitName;
                         this.orgId = res.data[0].id;
